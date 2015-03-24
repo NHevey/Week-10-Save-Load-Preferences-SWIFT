@@ -29,7 +29,7 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
     
     //color
     var selectedcolor:String!
-    let pickerColor = ["Red","Yellow", "Blue"]
+    let pickerColor = ["Red","Yellow", "Blue", "Green", "Orange"]
     @IBAction func btnLoad(sender: UIButton) {
         var defaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
         
